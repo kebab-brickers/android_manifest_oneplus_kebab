@@ -6,7 +6,6 @@
     <remote name="pixel-devices-blobs" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="eleven" />
     <remote name="gitlab" fetch="https://gitlab.com" />
 
-    <remove-project name="device/generic/opengl-transport" />
     <project name="android_device_oneplus_kebab" path="device/oneplus/kebab" remote="kebab" revision="lineage-18.1" />
     <project name="android_device_oneplus_sm8250-common" path="device/samsung/sm8250-common" remote="kebab" revision="rika" />
     <project name="vendor_oneplus_kebab" path="vendor/oneplus/kebab" remote="pixel-devices-blobs" revision="eleven" />
