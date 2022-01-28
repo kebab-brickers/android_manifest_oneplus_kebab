@@ -2,9 +2,11 @@
 <manifest>
     <remote fetch="https://github.com/kebab-brickers" name="kebab" />
 
-    <project name="device_oneplus_kebab" 		path="device/oneplus/kebab" 		remote="kebab"	 revision="snow" />
-    <project name="device_oneplus_common"               path="device/oneplus/common"            remote="kebab"	 revision="12" />
-    <project name="device_oneplus_sm8250-common" 	path="device/samsung/sm8250-common" 	remote="kebab"	 revision="12-wip" />
-    <project name="vendor_oneplus_sm8250-common" 	path="vendor/oneplus/sm8250-common" 	remote="kebab"	 revision="12" />
-    <project name="kernel_oneplus_sm8250" 		path="kernel/oneplus/sm8250" 		remote="kebab"	 revision="sapphire" />
+    <project name="device_oneplus_kebab" 			path="device/oneplus/kebab" 		remote="kebab"	 revision="snow" 	/>
+    <project name="device_oneplus_common"               	path="device/oneplus/common"            remote="kebab"	 revision="12" 		/>
+    <project name="device_oneplus_sm8250-common" 		path="device/samsung/sm8250-common" 	remote="kebab"	 revision="12-wip" 	/>
+    <project name="vendor_oneplus_sm8250-common" 		path="vendor/oneplus/sm8250-common" 	remote="kebab"	 revision="12" 		/>
+    <project name="kernel_oneplus_sm8250" 			path="kernel/oneplus/sm8250" 		remote="kebab"	 revision="sapphire" 	/>
+    <project name="chandu-A12/vendor_oneplus_extras"    	path="vendor/oneplus/extras"		remote="github"	 revision="snow" 	/>
+    <project name="chandu078/vendor_oneplus_addons_camera"	path="vendor/oneplus/addons/camera"	remote="gitlab"	 revision="eleven-9R"	/>
 </manifest>
