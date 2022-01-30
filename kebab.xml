@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="https://github.com/kebab-brickers" name="kebab" />
+    <remote fetch="https://github.com/ArrowOS"	      name="arrow" />
 
     <project name="device_oneplus_kebab" 		path="device/oneplus/kebab" 		remote="kebab"	 revision="snow" />
     <project name="device_oneplus_common"               path="device/oneplus/common"            remote="kebab"	 revision="12" />
     <project name="device_oneplus_sm8250-common" 	path="device/samsung/sm8250-common" 	remote="kebab"	 revision="12-wip" />
     <project name="vendor_oneplus_sm8250-common" 	path="vendor/oneplus/sm8250-common" 	remote="kebab"	 revision="12" />
     <project name="kernel_oneplus_sm8250" 		path="kernel/oneplus/sm8250" 		remote="kebab"	 revision="sapphire" />
+    
+    <!-- Remove broken repo for Android 12 -->
+    <remove-project name="hardware/qcom-caf/sm8250/audio" />
+    <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8250/audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-12.0-caf-sm8250" />
 </manifest>
