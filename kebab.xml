@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Remotes -->
-    	<remote fetch="https://github.com/kebab-brickers" name="kebab" />
+    	<remote fetch="https://github.com/kebab-brickers"     name="kebab" />
     	<remote fetch="https://github.com/ArrowOS"	      name="arrow" />
 
     	<!-- Device trees -->
-    	<project name="device_oneplus_kebab" 		path="device/oneplus/kebab" 		remote="kebab"	 revision="snow" 	/>
-    	<project name="device_oneplus_common"           path="device/oneplus/common"            remote="kebab"	 revision="12"		/>
-    	<project name="device_oneplus_sm8250-common" 	path="device/oneplus/sm8250-common" 	remote="kebab"	 revision="12-wip" 	/>
+    	<project name="device_oneplus_kebab" 		path="device/oneplus/kebab" 		remote="kebab"	 revision="hentaios" 	/>
+    	<project name="device_oneplus_common"           path="device/oneplus/common"            remote="kebab"	 revision="yaap"	/>
+    	<project name="device_oneplus_sm8250-common" 	path="device/oneplus/sm8250-common" 	remote="kebab"	 revision="hentaios" 	/>
 
     	<!-- Vendor tree -->
     	<project name="vendor_oneplus_sm8250-common" 	path="vendor/oneplus/sm8250-common" 	remote="kebab"	 revision="12" 		/>
